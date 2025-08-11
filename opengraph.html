@@ -18,11 +18,9 @@
   <meta property="og:url" content="https://example.com/articles/awesome-article" />
 
   <!-- Open Graph images (multiple sizes / fallbacks) -->
-  <meta property="og:image" content="https://example.com/media/og-image-1200x630.jpg" />
-  <meta property="og:image:secure_url" content="https://example.com/media/og-image-1200x630.jpg" />
+  <meta property="og:image" content="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg" />
+  <meta property="og:image:secure_url" content="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg" />
   <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="A preview image showing the Awesome Article banner" />
 
   <!-- Additional image fallback (square / social icons) -->
@@ -31,21 +29,22 @@
   <meta property="og:image:height" content="800" />
   <meta property="og:image:alt" content="Square preview for profile-style cards" />
 
-  <!-- Open Graph video (mp4 + hls) -->
-  <meta property="og:video" content="https://example.com/media/preview.mp4" />
-  <meta property="og:video:secure_url" content="https://example.com/media/preview.mp4" />
+  <!-- Open Graph video (mp4 + hls) 
+  <meta property="og:video" content="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" />
+  <meta property="og:video:secure_url" content="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" />
   <meta property="og:video:type" content="video/mp4" />
-  <meta property="og:video:width" content="1280" />
-  <meta property="og:video:height" content="720" />
+  -->
 
-  <!-- HLS / alternate video source (some platforms prefer m3u8) -->
+  <!-- HLS / alternate video source (some platforms prefer m3u8) 
   <meta property="og:video" content="https://example.com/media/preview.m3u8" />
   <meta property="og:video:type" content="application/vnd.apple.mpegurl" />
-
-  <!-- Open Graph audio (mp3 + ogg) -->
+  -->
+  
+  <!-- Open Graph audio (mp3 + ogg)
   <meta property="og:audio" content="https://example.com/media/sample-audio.mp3" />
   <meta property="og:audio:secure_url" content="https://example.com/media/sample-audio.mp3" />
   <meta property="og:audio:type" content="audio/mpeg" />
+  -->
 
   <!-- Article-specific metadata (if og:type=article) -->
   <meta property="article:published_time" content="2025-08-10T09:00:00+00:00" />
@@ -55,19 +54,21 @@
   <meta property="article:tag" content="Open Graph" />
   <meta property="article:tag" content="Social Preview" />
 
-  <!-- Twitter Card (best practice alongside OG tags) -->
+  <!-- Twitter Card (best practice alongside OG tags) 
   <meta name="twitter:card" content="player" />
   <meta name="twitter:site" content="@example" />
   <meta name="twitter:title" content="Awesome Article — Example Site" />
   <meta name="twitter:description" content="An example page demonstrating rich Open Graph (OG) media tags including images, video and audio for optimal social previews." />
   <meta name="twitter:image" content="https://example.com/media/og-image-1200x630.jpg" />
-
-  <!-- Twitter player card (for video/audio) -->
+  -->
+  
+  <!-- Twitter player card (for video/audio) 
   <meta name="twitter:player" content="https://example.com/embed/player?asset=preview" />
   <meta name="twitter:player:width" content="1280" />
   <meta name="twitter:player:height" content="720" />
   <meta name="twitter:player:stream" content="https://example.com/media/preview.mp4" />
   <meta name="twitter:player:stream:content_type" content="video/mp4" />
+  -->
 
   <!-- JSON-LD structured data (Article + MediaObject for richer indexing) -->
   <script type="application/ld+json">
